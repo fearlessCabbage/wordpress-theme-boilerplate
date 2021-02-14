@@ -1,0 +1,12 @@
+{
+  "name": "cabbage-theme",
+  "version": "1.0.0",
+  "description": "WordPress framework",
+  "author": "Mike Bowen",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss:deploy": "node-sass ./assets/scss/style.scss ./assets/css/style.min.css -w --output-style compressed",
+    "scss:watch": "node-sass ./assets/scss/style.scss ./assets/css/style.min.css --watch"
+  }
+}
